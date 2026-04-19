@@ -1,0 +1,90 @@
+{
+    "password": "hajini123",
+    "country_code": "JP",
+    "country_name": "Japan",
+    "concurrent_count": 5,
+    "final_url": "https://account.jetbrains.com/licenses/tokens",
+    "email_provider": {
+        "api_base": "https://www.nimail.cn",
+        "domain": "nimail.cn",
+        "username_length": 10
+    },
+    "browser": {
+        "chrome_exe": "auto",
+        "headless": false,
+        "profile_root": "auto",
+        "start_maximized": true
+    },
+    "registration": {
+        "auto_select_country": true,
+        "auto_click_add_credit_card": true,
+        "accept_all_checkboxes": true
+    },
+    "fingerprint": {
+        "platforms": [
+            [
+                "windows",
+                "10.0.0"
+            ],
+            [
+                "windows",
+                "11.0.0"
+            ],
+            [
+                "macos",
+                "14.5.0"
+            ],
+            [
+                "macos",
+                "15.2.0"
+            ],
+            [
+                "linux",
+                null
+            ]
+        ],
+        "brands": [
+            [
+                "Chrome",
+                null
+            ],
+            [
+                "Edge",
+                null
+            ],
+            [
+                "Opera",
+                null
+            ],
+            [
+                "Vivaldi",
+                null
+            ]
+        ],
+        "timezones": [
+            "Asia/Shanghai",
+            "Asia/Tokyo",
+            "Asia/Singapore",
+            "America/Los_Angeles",
+            "America/New_York",
+            "Europe/London",
+            "Europe/Berlin"
+        ],
+        "cpu_cores": [
+            2,
+            4,
+            6,
+            8,
+            12,
+            16
+        ],
+        "lang": "en-US"
+    },
+    "timeouts": {
+        "email_wait_seconds": 240,
+        "recaptcha_click_seconds": 25,
+        "recaptcha_dialog_seconds": 300,
+        "page_load_seconds": 60
+    },
+    "output_file": "jb_accounts.txt"
+}
